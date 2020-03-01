@@ -1,0 +1,146 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+#main{
+    position: relative;
+}
+#header-img{
+    width: 50px;
+    height: 50px;
+    }
+ .navbar{
+     background-color: grey;
+    font-weight: 400; 
+    }
+    nav{
+        position: fixed;
+    }
+    nav > ul {
+        width: 35vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+.nav-link{
+    color: rgb(149, 221, 41);
+    text-align: right;  
+}
+.nav-link:hover{
+    color: white;
+}
+.container{
+    margin-top: 30px;
+    }
+.flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexcontainer > div{
+    margin:10px;
+    padding: 10px;
+    font-size: 14px;
+}
+.col-font{
+    display: flex;
+    justify-content: center;
+    color:  rgb(149, 221, 41);    
+}
+.col-des{
+    text-align: left;
+    justify-self: start;
+    width: 80%;
+    color: grey;
+    font-size: 20px;
+        }
+@media screen and (max-width:600px){
+    .col-des{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width:600px){
+    .col-font{
+        display:none;
+    }
+}
+#howitworks{
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+}
+#howitworks> iframe{
+    width: 100%;
+    max-width: 550px;
+}
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+  }
+  
+  #hero > h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    color: grey;
+  }
+  
+  #hero input[type="email"] {
+    max-width: 275px;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-left: 120px;
+    border-color:rgb(149, 221, 41) ;
+
+  }
+  
+  #hero input[type="submit"] {
+    max-width: 150px;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0px 0px 180px;
+    border: 0;
+    background-color:  rgb(149, 221, 41);
+  }
+  
+  #hero input[type="submit"]:hover {
+    background-color:  rgb(149, 221, 41);
+    transition: background-color 1s;
+  }
+  
+  @media (max-width: 650px) {
+    #hero {
+      margin-top: 100px;
+    }
+    #hero input[type="email"]{
+      margin-left: 120px;
+    }
+    #hero input[type="submit"] {
+        margin-left: 185px;
+    }
+  }
+  #video{ 
+      border: 5px solid rgb(149, 221, 41);
+      height: 400px;
+      width:700px;
+  }
+  .container{
+      padding-bottom: 25px;
+  }
+  .pricing-col{
+      border: 2px solid rgb(149, 221, 41) ;
+      margin: 5px 5px 5px 5px;
+  }
+  .btn{
+    border: 5px solid rgb(149, 221, 41) ;
+    align-self: center;
+  }
+  .row{
+    border: 2px solid rgb(149, 221, 41) ;
+  }
